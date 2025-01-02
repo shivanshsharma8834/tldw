@@ -1,6 +1,6 @@
 import sys 
-from zumtube.scrapper import get_youtube_audio
-from zumtube.processor import process_audio
+from scripts.scrapper import get_youtube_audio
+from scripts.processor import process_audio
 
 if __name__ == "__main__":
 

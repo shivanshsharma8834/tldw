@@ -14,7 +14,7 @@ def process_audio():
     print("Processing audio...")
     
     cwd = os.getcwd()
-    audio_path = os.path.join(cwd, 'zumtube', 'temp', 'temp_audio.mp3')
+    audio_path = os.path.join(cwd, 'scripts', 'temp', 'temp_audio.mp3')
 
     with open(audio_path, 'rb') as f:
 

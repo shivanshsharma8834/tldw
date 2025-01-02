@@ -11,7 +11,7 @@ def get_youtube_audio(url : str):
 
     cwd = os.getcwd()
 
-    temp_audio_path = os.path.join(cwd, 'zumtube', 'temp')
+    temp_audio_path = os.path.join(cwd, 'scripts', 'temp')
 
     stream.download(output_path=temp_audio_path, filename='temp_audio.mp3')
     
